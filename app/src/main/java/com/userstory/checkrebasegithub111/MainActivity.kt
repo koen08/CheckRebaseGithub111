@@ -1,8 +1,8 @@
 package com.userstory.checkrebasegithub111
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         val y = 2 + 2
         val z = x + y
         val z1 = x + y
+        val z2 = y + x
         Log.e("TAG1", z.toString() + "")
     }
 }
