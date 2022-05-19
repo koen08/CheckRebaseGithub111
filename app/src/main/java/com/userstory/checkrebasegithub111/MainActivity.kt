@@ -10,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         val x = 1 + 1
         val y = 2 + 2
         val z = x + y
+        val ww = y + y
     }
 }
